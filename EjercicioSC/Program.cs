@@ -6,7 +6,7 @@ namespace EjercicioSC
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			clsEnemigo CrearEnemigo = new clsEnemigo(15, "PrimerEnemigo", 100);
 		}
 	}
 }

@@ -11,14 +11,10 @@ namespace EjercicioSC
 
 		//Falta crear posición
 
-		public string ImprimirEnemigo() => $"{Id} {Nombre} {Vida}";
+		public string ImprimirEnemigo() => $"{Id}, {Nombre}, {Vida}";
 
-		public clsEnemigo(int id, string nombre, int vida)
+		public clsEnemigo()
 		{
-			Id = id;
-			Nombre = nombre;
-			Vida = vida;
-
 			//Contador de Enemigos Creados
 			NumeroEnemigo += 1;
 		}

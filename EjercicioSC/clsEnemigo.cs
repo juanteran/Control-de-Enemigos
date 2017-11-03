@@ -11,6 +11,8 @@ namespace EjercicioSC
 
 		//Falta crear posición
 
+		public string ImprimirEnemigo() => $"{Id} {Nombre} {Vida}";
+
 		public clsEnemigo(int id, string nombre, int vida)
 		{
 			Id = id;
@@ -20,7 +22,6 @@ namespace EjercicioSC
 			//Contador de Enemigos Creados
 			NumeroEnemigo += 1;
 		}
-
 
 	}
 }
